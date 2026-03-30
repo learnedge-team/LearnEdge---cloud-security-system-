@@ -1,0 +1,3 @@
+{"type": "BRUTE_FORCE_ATTACK", "severity": "HIGH", "description": "Brute force attack detected from IP 127.0.0.1 for user admin", "details": {"ip": "127.0.0.1", "username": "admin", "attempts": 4}, "id": 1, "timestamp": "2026-03-30T15:02:16.493256"}
+{"type": "BRUTE_FORCE_ATTACK", "severity": "HIGH", "description": "Brute force attack detected from IP 127.0.0.1 for user admin", "details": {"ip": "127.0.0.1", "username": "admin", "attempts": 5}, "id": 2, "timestamp": "2026-03-30T15:06:28.359221"}
+{"type": "BRUTE_FORCE_ATTACK", "severity": "HIGH", "description": "Brute force attack detected from IP 127.0.0.1 for user admin", "details": {"ip": "127.0.0.1", "username": "admin", "attempts": 4}, "id": 3, "timestamp": "2026-03-30T15:31:56.873297"}

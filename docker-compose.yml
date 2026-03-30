@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  security-system:
+    build: .
+    container_name: cloud-security-system
+    ports:
+      - "5000:5000"
+    volumes:
+      # Mount for persistent data
+      - ./data:/app/data
+      - ./logs:/app/logs
+    environment:
+      - FLASK_ENV=production
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    networks:
+      - security-network
+
+networks:
+  security-network:
+    driver: bridge
